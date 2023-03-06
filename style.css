@@ -28,14 +28,21 @@ a:hover {
   text-decoration: underline;
 }
 
-.t {
+p {
+  color: rgb(191,64,64);
+}
+
+.t {#bf4040
   font-family: 'Tilt Neon', cursive;
   font-size: 18px;
 }
 
+.logo-clr {
+  color: #bf4040;
+}
+
 .logo {
   font-family: 'Climate Crisis';
-  color: #0b0904;
 }
 
 /* .logo a:hover {
@@ -63,7 +70,12 @@ a:hover {
 .toggle a {
   font-size: 20px;
 }
-
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
 /* Mobile menu */
 iframe {
   border-color: #7c5004;
