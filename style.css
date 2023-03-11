@@ -28,8 +28,25 @@ a:hover {
   text-decoration: underline;
 }
 
-p {
+.pp {
   color: rgb(191,64,64);
+  text-indent: 20px;
+  margin: 8px;
+  text-align: justify;
+  font-family: 'Tilt Neon', cursive;
+}
+.pp3, ul {
+  color: rgb(191,64,64);
+  margin: 8px;
+}
+.pp2 {
+  margin: 8px; 
+  color: DimGray;
+}
+.pp4, ul {
+  color: rgb(191,64,64);
+  margin: 15px;
+  list-style-type: decimal;
 }
 
 .t {
@@ -43,6 +60,14 @@ p {
 
 .logo {
   font-family: 'Climate Crisis';
+  /* text-decoration: none; */
+  list-style-type: none;
+}
+
+.logo2 {
+  height: 19px;
+  width: 19px;
+  padding: 5px;
 }
 
 /* .logo a:hover {
@@ -59,7 +84,7 @@ p {
   color: #0b0904;
   display: flex;
   justify-content: center;
-  /* font-size: 30px; */
+  font-size: 20px;
 }
 .menu li {
   font-size: 16px;
@@ -68,11 +93,12 @@ p {
 }
 .logo a,
 .toggle a {
-  font-size: 20px;
+  font-size: 11px;
 }
+
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 3px;cl
   background-color: DarkSalmon;
   color: white;
 }
@@ -181,6 +207,10 @@ iframe {
 
 /* Desktop menu */
 @media all and (min-width: 768px) {
+.logo a,
+.toggle a {
+  font-size: 20px;
+}
   .center {
     display: flex;
     justify-content: center;
@@ -212,5 +242,13 @@ iframe {
   }
   .menu li.button {
       padding-right: 0;
+  }
+  .logo2 {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
+  .title, h1 {
+    font-size: 30px;
   }
 }
