@@ -1,1 +1,1 @@
-# teknologi
+# filosofi
